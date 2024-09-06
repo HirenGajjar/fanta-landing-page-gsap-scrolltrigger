@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(/Fonts/Product\ Sans\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Product Sans B;
+    src: url(/Fonts/Product\ Sans\ Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Product Sans;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: orangered;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 100px;
+    z-index: 99;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    color: #fff;
+    width: 100%;
+}
+
+nav>.nav-links ul {
+    display: flex;
+
+    gap: 120px;
+}
+
+nav>.nav-links ul li {
+    list-style-type: none;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+}
